@@ -7,5 +7,7 @@ resource "aws_instance" "example" {
     instance_type = "t2.micro"
     subnet_id = "subnet-0ef88a165e154d339"
     key_name = "my_own"
+    #key_name = ""
+
 
 }
