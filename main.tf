@@ -1,4 +1,4 @@
-
+#create EC2 instance with terrafrom
 provider "aws" {
     region = "us-east-1" 
   
